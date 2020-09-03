@@ -1,1 +1,3 @@
-<p>gamecontrol works!</p>
+<button class="btn btn-primary mr-2 mb-2" (click)="this.start.emit()">Start</button>
+<button class="btn btn-primary mr-2 mb-2" (click)="this.stop.emit()">Stop</button>
+<button class="btn btn btn-primary mr-2 mb-2" disabled>Current Number: {{ seconds }}</button>
